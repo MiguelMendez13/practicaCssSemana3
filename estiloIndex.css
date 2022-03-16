@@ -1,0 +1,264 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.Cabeza{
+    display: flex;
+    /*background-color: gray;*/
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    align-items: center;
+}
+.Cabeza p{
+    margin: auto;
+}
+
+.Cabeza img{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.Cabeza button{
+    background-color: blue;
+    border-radius: 5px;
+    height: 30px;
+    color:white;
+
+}
+
+
+.Section1{
+    display: flex;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: auto;
+    width: 100%;
+    height: 200px;
+}
+.Section1 .Text{
+    width: 50%;
+    height: 500px;
+    justify-content: center;
+    justify-items: center;
+    padding-left: 10%; 
+}
+.titleSec1{
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.Section1 .Image{
+
+    width: 50%;
+    height: 500px;
+}
+/*.Image img{
+    width: 100%;
+}*/
+.Section1 .AreaFloat{
+    border-color: gray;
+    border: 3px;
+    border-style: solid;
+    width: 50%;
+    height: 90px;
+    position: absolute;
+    top: 450px;
+    left: 30%;
+    display: flex;
+}
+.AreaFloat table{
+    width: 100%;
+}
+
+.AreaFloat  button{
+    background-color: blue;
+    border-radius: 5px;
+    height: 30px;
+    color:white;
+
+}
+
+
+
+
+
+.ImagesLabs{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 80px;
+    top:650px;
+    position: absolute;
+}
+.ImagesLabs img{
+    width: 20%;
+    height: 80%;
+    margin: auto;
+}
+
+
+
+
+
+
+.Menu{
+    position: absolute;
+    top: 750px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.Menu img{
+    width: 50px;
+}
+
+.MenuMenu{
+    margin: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    align-content: space-between;
+}
+.MenuMenu div{
+    width: 18%;
+    height: 250px;
+    border: 3px ;
+    border-color: gray;
+    border-style: solid;
+    padding: 1%;
+}
+.TextMenu{
+    padding-left: 10%;
+}
+
+
+
+.Preparation{
+    position: absolute;
+    top: 1400px;
+    display: flex;
+
+    width: 100%;
+
+}
+.Preparation1{
+    width: 50%;
+}
+.Preparation2{
+    width: 50%;
+}
+.iccon{
+    width: 25px;
+    height: 25px;
+}
+.iccon1{
+    width: 50px;
+    height: 50px;
+}
+.Menuu{
+    display: flex;
+    flex-direction: column;
+}
+.Menuu div{
+    width: 70%;
+    display: flex;
+    margin: 20px;
+    border: 3px ;
+    border-color: gray;
+    border-style: solid;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+
+.ECT1{
+    position: absolute;
+    display: flex;
+    top: 2200px;
+    width: 100%;
+    left: 0px;
+}
+.ECT11{
+    padding: 5%;
+    width: 50%;
+}
+.ECT12{
+    width: 50%;
+}
+
+
+footer{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 2900px;
+    display: flex;
+    background-color: lightblue;
+}
+
+
+
+.Foot1{
+    width: 40%;
+    margin-left: 10%;
+}
+
+.Foot2{
+    margin: auto;
+    width: 15%;
+}
+
+.Foot3{
+    margin: auto;
+    width: 15%;
+}
+
+.Foot4{
+    margin: auto;
+    width: 15%;
+}
+
+
+
+
+
+
+
+
+
+.SubmenuText2{
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.SubmenuText{
+    color: blue;
+    font-size: 35px;
+    font-weight: bold;
+
+}
